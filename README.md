@@ -3,10 +3,10 @@ Sample python module that uses redis and cv2
 
 # If you have docker-compose installed and need a redis server
 cd redis_docker/
-./docker_compose_up_build.sh
+./start_redis_container.sh
 
 # To remove the installed container.
-./docker_compose_up_build.sh
+./remove_redis_container.sh
 
 # For step 4 of the instructions
 4.) Subscribe to the key "Bang", if a new number is published, take a picture
